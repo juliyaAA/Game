@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simpson.css">
+    <link rel="stylesheet" href="style.css">   
+<body>
+    <div class="container">
+        <div style="text-align: center;" id="pre-window">
+            <h2>Это игра про симсонов</h2>
+            <div>
+                <label for="name">Введите имя</label>
+            <input type="text" name="name" placeholder="Введите имя" id="name">
+            </div>
+            <div>
+                <label for="count">Введите кол-во карточек</label>
+            <input type="text" name="count" id="count">
+            </div>
+            
+            <button id="start_menu">Начать игру</button>
+        </div>
+        <main class="grid" id="grid">
+            
+        </main>
+    </div>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script  type="text/babel" src="babel.js"></script>
+</body>
+</html>
