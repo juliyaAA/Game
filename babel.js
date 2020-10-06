@@ -554,9 +554,7 @@ class Game {
         const el = event.target;
         if (this.firstElement != null) {
             if (this.firstElement.id === el.dataset.id) {
-                // console.log(this.firstElement.id + '!=' + el.dataset.id);
-                // alert('ах хитрец! Данный баг был уже выявлен тестировщиком!')
-                return
+                return;
             }
         }
         const elementId = el.dataset.id;
